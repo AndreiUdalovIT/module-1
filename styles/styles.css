@@ -1,6 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Manrope", sans-serif;
     width: 100%;
+}
+
+header {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 33px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-bottom: 70px;
 }
 
 h1 {
@@ -31,16 +44,15 @@ h3 {
     margin-bottom: 15px;
 }
 
-.main {
+.intro {
     margin: 0 auto;
     width: 1400px;
     background-color: #FFFFFF;
     padding-left: 125px;
     padding-right: 125px;
-    padding-top: 128px;
 }
 
-.image__int { 
+.int__img { 
     position: relative;
     width: 1150px;
     height: 500px;
@@ -48,7 +60,7 @@ h3 {
     margin-bottom: 150px;    
 }
 
-.image__int-text {
+.int__img__text {
     position: absolute;
     top: 379px;
     left: 40px;
@@ -103,12 +115,12 @@ h3 {
     margin-bottom: 150px;
 }
 
-.image__jk {
+.jk__img {
     width: 100%;
     margin-bottom: 15px;
 }
 
-.link__jk {
+.jk__link {
     color: #AD1818;
     font-size: 20px;
     font-weight: 400;
@@ -171,6 +183,33 @@ h3 {
     margin-bottom: 0px;
 }
 
+.menu {
+    float: right;
+}
+
+.logo__image { 
+    width: 126.889px;
+    height: 21.42px;
+}
+.menu__link {
+    color: #121212;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.menu__link__active {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);   
+}
+
+.menu__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+}
 
 
 
