@@ -62,7 +62,7 @@ h3 {
     position: relative;
     width: 1150px;
     height: 500px;
-    background-image: url(/resources/Rectangle\ 1.png);
+    background-image: url(../resources/Rectangle\ 1.png);
     margin-bottom: 150px;    
 }
 
@@ -222,7 +222,7 @@ h3 {
 }
 .project-2 {
     height: 717px;
-    background-image: url(/resources/Rectangle\ 10.png);
+    background-image: url(../resources/Rectangle\ 10.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -268,7 +268,7 @@ h3 {
     position: absolute;
     top: 150px;
     left: 120px;
-    background-image: url(/resources/ic_outline-phone-iphone.png);
+    background-image: url(../resources/ic_outline-phone-iphone.png);
 }
 
 .contacts__container {
