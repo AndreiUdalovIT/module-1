@@ -179,7 +179,7 @@ h3 {
     margin-bottom: 13px;
 }
 
-.service__text {
+.service__text, .service__text__last {
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 400;
@@ -189,8 +189,8 @@ h3 {
     margin-bottom: 60px;
 }
 
-.service__text:nth-last-child(1) {
-    margin-bottom: 0px;
+.service__text__last {
+    margin-bottom: 0;
 }
 
 .menu {
