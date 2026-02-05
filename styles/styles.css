@@ -102,13 +102,23 @@ h3 {
     text-decoration: none;
     margin-bottom: 150px;
 }
-.project {
-    margin-bottom: 150px;
-}
 
 .jk__img {
     width: 100%;
+    height: 450px;
     margin-bottom: 15px;
+}
+
+.jk__img-1 {
+    background-image: url(../resources/Rectangle\ 6.png);
+}
+
+.jk__img-2 {
+    background-image: url(../resources/Rectangle\ 7.png);
+}
+
+.jk__img-3 {
+    background-image: url(../resources/Rectangle\ 7\ \(1\).png);
 }
 
 .jk__link {
@@ -127,16 +137,16 @@ h3 {
 .watch__all-buttom {
     display: block;
     width: 100%;
-    height: 153px;
     border: 1px solid #AD1818;
     color: #AD1818;
     font-size: 30px;
     font-weight: 400;
-    line-height: 153px;
+    line-height: 151px;
     letter-spacing: -0.9px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    margin-bottom: 150px;
 }
 
 .watch__all-buttom:hover {
@@ -329,6 +339,7 @@ h3 {
 }
 
 @media (max-width: 1199px) {
+    
     .intro {
         width: 100%;
         padding-left: 15px;
@@ -353,9 +364,54 @@ h3 {
         font-size: 50px;
         letter-spacing: -1.5px;
     }
+
+    .about {
+        width: 100%;
+        padding-left: 17px;
+    }
+
+    .about__text {
+        width: 690px;
+        font-size: 35px;
+        letter-spacing: -1.05px;
+    }
+
+    .services__button {
+        margin-bottom: 120px;
+    }
+
+    .project {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 17px;
+    }
+
+    .jk__img {
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    h3 {
+        font-size: 25px;
+        letter-spacing: -0.75px;
+        margin-bottom: 10px;
+    }
+
+    .jk1, .jk2 {
+        margin-bottom: 78px;
+    }
+
+    .jk3 {
+        margin-bottom: 100px;
+    }
+
+    .watch__all-buttom {
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width: 767px) {
+    
     .intro {
         width: 100%;
         padding-left: 13px;
@@ -385,4 +441,72 @@ h3 {
         line-height: 31.621px;
         margin-bottom: 25px;
     }
+
+    .about {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 16px;
+    }
+
+    h2 {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+        margin-bottom: 20px;
+    }
+
+    .about__text {
+        width: 346px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+
+    .services__button {
+        width: 194px;
+        border-radius: 4px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
+        line-height: 51px;
+        margin-bottom: 80px;
+    }
+
+    .project {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .jk__img {
+        background-size: cover;
+        background-position: 50%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+        margin-bottom: 11px;
+    }
+
+    .jk__link {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .jk1, .jk2 {
+        margin-bottom: 49px;
+    }
+
+    .jk3 {
+        margin-bottom: 60px;
+    }
+
+    .watch__all-buttom {
+        border-radius: 4px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+        line-height: 98px;
+        margin-bottom: 80px;
+    }
+
 }
