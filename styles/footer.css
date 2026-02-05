@@ -1,0 +1,48 @@
+@import "/styles/contacts.css";
+@import "/styles/styles.css";
+
+footer {
+    background-color: #121212;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer__container {
+    margin: 0 auto;
+    width: 455px;
+    margin-bottom: 89px;
+    padding-right: 5px;
+}
+
+.menu__link2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    padding-right: 52px;
+}
+
+.menu__link2:hover {
+    opacity: 0.5;
+}
+
+.menu__link2__active {
+    opacity: 0.5;
+}
+
+.menu__link2:nth-last-child(1) {
+    padding-right: 0px;
+}
+
+.footer__text {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    padding-left: 3px;
+    opacity: 0.5;
+}

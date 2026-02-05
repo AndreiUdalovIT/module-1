@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Метрика (макет)</title>
+    <link rel="icon" href="resources/Метрика_(1).png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/service.css">
 </head>
 <body>
 <!--<header>
@@ -44,17 +50,29 @@
             <h2>ПРОЕКТЫ</h2>
             <ul class="jk">
                 <li class="jk1">
-                    <div class="jk__img jk__img-1"></div>
-                    <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                    <picture> 
+                        <source media="(max-width: 767px)" srcset="resources/Rectangle_6-phone.png">
+                        <source media="(max-width: 1199px)" srcset="resources/Rectangle_6-tablet.png">
+                        <img class="jk__img" src="resources/Rectangle_6.png" alt="">
+                    </picture>
+                        <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                     <a class="jk__link" href="/">Подробнее →</a>
                 </li>
                 <li class="jk2">
-                    <div class="jk__img jk__img-2"></div>
-                    <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="resources/Rectangle_7-phone.png">
+                        <source media="(max-width: 1199px)" srcset="resources/Rectangle_7-tablet.png">
+                        <img class="jk__img" src="resources/Rectangle_7.png" alt="">
+                    </picture>
+                        <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                     <a class="jk__link" href="/">Подробнее →</a>
                 </li>
                 <li class="jk3">
-                    <div class="jk__img jk__img-3"></div>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="resources/Rectangle_8-phone.png">
+                        <source media="(max-width: 1199px)" srcset="resources/Rectangle_8-tablet.png">
+                        <img class="jk__img" src="resources/Rectangle_8.png" alt="">
+                    </picture>
                     <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                     <a class="jk__link" href="/">Подробнее →</a>
                 </li>
@@ -66,19 +84,19 @@
                 <h2 class="service__title" id="service">УСЛУГИ</h2>
                 <ul>
                     <li>
-                        <img class="service__img" src="resources/Rectangle 2.png" alt="">
+                        <img class="service__img" src="resources/Rectangle_2.png" alt="">
                         <p class="service__text">Планировочное решение — от 2500₽/м²</p>
                     </li>
                     <li>
-                        <img class="service__img" src="resources/Rectangle 3.png" alt="">
+                        <img class="service__img" src="resources/Rectangle_3.png" alt="">
                         <p class="service__text">Дизайн-проект — от 3000₽/м²</p>
                     </li>
                     <li>
-                        <img class="service__img" src="resources/Rectangle 4.png" alt="">
+                        <img class="service__img" src="resources/Rectangle_4.png" alt="">
                         <p class="service__text">Авторский надзор — от 30 000₽ в месяц</p>
                     </li>
                     <li>
-                        <img class="service__img" src="resources/Rectangle 5.png" alt="">
+                        <img class="service__img" src="resources/Rectangle_5.png" alt="">
                         <p class="service__text__last">Комплектация — 5% от стоимости спецификации</p>
                     </li>
                 </ul>

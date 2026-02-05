@@ -1,0 +1,40 @@
+@import "/styles/intro.css";
+@import "/styles/styles.css";
+
+header {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 33px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-bottom: 72px;
+}
+
+.logo__image { 
+    width: 126.889px;
+    height: 21.42px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu__link {
+    color: #121212;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    margin-left: 57px;
+}
+
+.menu__link__active {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);   
+}
+
+.menu__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+}

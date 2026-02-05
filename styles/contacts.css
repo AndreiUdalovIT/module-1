@@ -1,0 +1,60 @@
+@import "/styles/about.css";
+@import "/styles/project-2.css";
+@import "/styles/footer.css";
+@import "/styles/styles.css";
+
+.contacts {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #FFFFFF;
+    padding-left: 125px;
+    position: relative;
+}
+
+.contacts__title {
+    margin-bottom: 32px;
+    padding-top: 186px;
+}
+
+.contacts__title::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    background-image: url(../resources/ic_outline-phone-iphone.png);
+}
+
+.contacts__container {
+    width: 472px;
+}
+
+.contacts__text__container1 {
+    margin-bottom: 30px;  
+}
+
+.contacts__text {
+    color: #121212;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-decoration: none;
+    white-space: pre;
+}
+
+.contacts__text__container2 {
+    margin-bottom: 160px;
+}
+
+.contacts__text1__active {
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+ 
+.contacts__text:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}

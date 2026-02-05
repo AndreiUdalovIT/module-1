@@ -1,0 +1,30 @@
+@import "/styles/service.css";
+@import "/styles/contacts.css";
+@import "/styles/styles.css";
+
+.project-2 {
+    height: 717px;
+    background-image: url(../resources/Rectangle_10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.project-2__container {
+    margin: 0 auto;
+    position: relative;
+    width: 1400px;
+    height: 717px;
+}
+
+.project-2__text {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;   
+}

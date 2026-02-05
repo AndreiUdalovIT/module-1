@@ -1,0 +1,38 @@
+@import "/styles/about.css";
+@import "/styles/project.css";
+@import "/styles/project-2.css";
+@import "/styles/styles.css";
+
+.service {
+    background-color: #121212;
+}
+
+.service__container {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 150px 125px;
+}
+
+.service__title {
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.service__img {
+    width: 1150px;
+    margin-bottom: 13px;
+}
+
+.service__text, .service__text__last {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    padding-left: 3px;
+    margin-bottom: 60px;
+}
+
+.service__text__last {
+    margin-bottom: 0;
+}
