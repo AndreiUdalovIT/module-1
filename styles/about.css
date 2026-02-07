@@ -1,7 +1,3 @@
-@import "/styles/intro.css";
-@import "/styles/project.css";
-@import "/styles/styles.css";
-
 .about {
     margin: 0 auto;
     width: 1150px;
@@ -65,7 +61,6 @@ h2 {
 @media (max-width: 767px) {
 
     .about {
-        width: 100%;
         padding-left: 13px;
         padding-right: 16px;
     }
