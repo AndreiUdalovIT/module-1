@@ -19,6 +19,7 @@
     width: 255px;
     background-color: #AD1818;
     border-radius: 5px;
+    border: 1px solid #AD1818;
     color: #FFFFFF;
     text-align: center;
     font-size: 20px;
@@ -27,6 +28,12 @@
     letter-spacing: -0.6px;
     text-decoration: none;
     margin-bottom: 150px;
+}
+
+.services__button:hover {
+    background-color: #FFFFFF;
+    color: #AD1818;
+    border: 1px solid #AD1818;
 }
 
 @media (max-width: 1199px) {

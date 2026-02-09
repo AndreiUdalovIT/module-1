@@ -88,6 +88,11 @@
     letter-spacing: -0.9px;
 }
 
+.services__button-2:hover {
+    background-color: #FFF;
+    color: #AD1818;
+}
+
 @media (max-width: 1199px) {
 
     .service__container {
