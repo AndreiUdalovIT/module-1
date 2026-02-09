@@ -1,16 +1,6 @@
 .about {
     margin: 0 auto;
     width: 1150px;
-    background-color: #FFFFFF;
-}
-
-h2 {
-    color: #121212;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.54px;
-    margin-bottom: 30px;
 }
 
 .about__text {
@@ -65,16 +55,11 @@ h2 {
         padding-right: 16px;
     }
 
-    h2 {
-        font-size: 14px;
-        letter-spacing: -0.42px;
-        margin-bottom: 20px;
-    }
-
     .about__text {
-        width: 346px;
+        width: 345px;
         font-size: 22px;
         letter-spacing: -0.66px;
+        padding-left: 0px;
     }
 
     .services__button {

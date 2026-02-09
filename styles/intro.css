@@ -1,7 +1,6 @@
 .intro {
     margin: 0 auto;
     width: 1150px;
-    background-color: #FFFFFF;
 }
 
 .int__img { 
@@ -25,16 +24,6 @@
     letter-spacing: -0.6px;
 }
 
-h1 {
-    color: #121212;
-    width: 956px;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 60px; 
-    letter-spacing: -1.8px;
-    margin-bottom: 30px;
-}
-
 @media (max-width: 1199px) {
     
     .intro {
@@ -55,12 +44,6 @@ h1 {
         top: 289px;
         left: 42px;
         bottom: 30px;
-    }
-
-    h1 {
-        width: 750px;
-        font-size: 48px;
-        letter-spacing: -1.5px;
     }
 }
 
@@ -86,13 +69,5 @@ h1 {
         top: 201px;
         left: 15px;
         bottom: 15px;
-    }
-
-    h1 {
-        width: 330px;
-        font-size: 30px;
-        letter-spacing: -0.9px;
-        line-height: 31.621px;
-        margin-bottom: 25px;
     }
 }
