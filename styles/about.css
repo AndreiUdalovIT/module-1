@@ -53,6 +53,17 @@
     .services__button {
         margin-bottom: 120px;
     }
+
+    .services__button:hover {
+        background-color: #AD1818;
+        color:#FFFFFF;
+    }
+
+    .services__button:active {
+        background-color: #FFFFFF;
+        color: #AD1818;
+        border: 1px solid #AD1818;
+    }
 }
 
 @media (max-width: 767px) {

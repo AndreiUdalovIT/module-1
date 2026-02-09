@@ -134,6 +134,16 @@
     .service__img-3{
         margin-left: 0px;
     }
+
+    .services__button-2:hover {
+        background-color: #AD1818;
+        color: #FFF;
+    }
+
+    .services__button-2:active {
+        background-color: #FFF;
+        color: #AD1818;
+    }
 }
 
 @media (max-width: 767px) {
