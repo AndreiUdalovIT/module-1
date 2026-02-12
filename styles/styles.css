@@ -50,7 +50,7 @@ h3 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
 
     h1 {
         width: 312px;

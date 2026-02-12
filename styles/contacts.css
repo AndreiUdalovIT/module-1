@@ -1,33 +1,41 @@
 .contacts {
     margin: 0 auto;
-    width: 1400px;
-    background-color: #FFFFFF;
-    padding-left: 125px;
-    position: relative;
+    width: 1150px;
+    padding: 150px 0 ;
 }
 
 .contacts__title {
-    margin-bottom: 32px;
-    padding-top: 186px;
+    margin-bottom: 74px;
 }
 
-.contacts__title::before {
+.contacts__icon-1 {
+    position: relative;
+}
+
+.contacts__icon-2 {
+    position: relative;
+}
+
+.contacts__icon-1::before, .contacts__icon-2::before  {
     content: '';
     display: block;
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 150px;
-    left: 120px;
+    top: -50px;
+    left: -6px;
     background-image: url(../resources/ic_outline-phone-iphone.png);
 }
 
-.contacts__container {
-    width: 472px;
+.contacts__icon-2::before {
+    top: -48px;
+    left: 4px;
+    background-image: url(../resources/material-symbols_mail-outline-rounded.png);
 }
 
-.contacts__text__container1 {
-    margin-bottom: 30px;  
+.contacts__text__flex {
+    display: flex;
+    column-gap: 104px;
 }
 
 .contacts__text {
@@ -40,10 +48,6 @@
     white-space: pre;
 }
 
-.contacts__text__container2 {
-    margin-bottom: 160px;
-}
-
 .contacts__text1__active {
     opacity: 0.5;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
@@ -52,4 +56,56 @@
 .contacts__text:hover {
     opacity: 0.5;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1199px) {
+
+    .contacts {
+        width: 100%;
+        padding: 120px 0 120px 17px;
+    }
+
+    .contacts__text__flex {
+        column-gap: 114px;
+    }
+
+    .contacts__text {
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .contacts {
+        padding: 80px 0 80px 11px;
+    }
+
+    .contacts__title {
+        margin-left: 3px;
+        margin-bottom: 58px;
+    }
+
+    .contacts__icon-1::before, .contacts__icon-2::before {
+        width: 18px;
+        height: 18px;
+        top: -38px;
+        left: -2px;
+        background-size: cover;
+    }
+
+    .contacts__icon-2::before {
+        left: 1px;
+    }
+
+    .contacts__text__flex {
+        flex-direction: column;
+        row-gap: 58px;
+    }
+
+    .contacts__text {
+        font-size: 35px;
+        line-height: 46px;
+        letter-spacing: -1.05px;
+    }
 }
