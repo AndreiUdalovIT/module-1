@@ -16,14 +16,13 @@ header {
     float: right;
 }
 
-.menu__link {
+.nav__link {
     color: #121212;
     font-size: 18px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: normal;
     letter-spacing: -0.54px;
     text-decoration: none;
-    margin-left: 57px;
 }
 
 .menu__link__active {
@@ -31,7 +30,7 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);   
 }
 
-.menu__link:hover {
+.nav__link:hover {
     opacity: 0.5;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
 }

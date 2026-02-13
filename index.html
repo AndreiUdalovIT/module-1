@@ -18,15 +18,16 @@
     <link rel="stylesheet" href="styles/reviews.css">
     <link rel="stylesheet" href="styles/gallery.css">
     <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
 <!--<header>
         <a class="logo_link" href="index.html"><img class="logo__image" src="resources/Метрика.png" alt=""></a>
         <nav class="menu">
-            <a class="menu__link menu__link__active" href="#about" >О НАС</a>  
-            <a class="menu__link" href="#project" >ПРОЕКТЫ</a>
-            <a class="menu__link" href="#service" >УСЛУГИ</a>
-            <a class="menu__link" href="#contacts" >КОНТАКТЫ</a>
+            <a class="nav__link menu__link__active" href="#about" >О НАС</a>  
+            <a class="nav__link" href="#project" >ПРОЕКТЫ</a>
+            <a class="nav__link" href="#service" >УСЛУГИ</a>
+            <a class="nav__link" href="#contacts" >КОНТАКТЫ</a>
         </nav>
     </header>-->
     <main>  
@@ -195,12 +196,8 @@
                 </div>
                 <div class="gallery__container__control">
                     <div class="gallery__control__flex"> 
-                        <button class="gallery__control-prev">
-                            <img class="gallery__control__img" src="resources/icon_1.png" alt="">
-                        </button>
-                        <button class="gallery__control-next">
-                            <img class="gallery__control__img" src="resources/icon_2.png" alt="">
-                        </button>
+                        <button class="gallery__control-prev"></button>
+                        <button class="gallery__control-next"></button>
                     </div>
                 </div>   
             </div>
@@ -218,15 +215,17 @@
             </div>
         </section>
     </main>
-    <!--<footer>
-        <nav class="footer__container">
-            <a class="menu__link2 menu__link2__active" href="#about">О НАС</a>
-            <a class="menu__link2" href="#project">ПРОЕКТЫ</a>
-            <a class="menu__link2" href="#service">УСЛУГИ</a>
-            <a class="menu__link2" href="#contacts">КОНТАКТЫ</a>
-        </nav>
+    <footer>
+        <div class="footer__nav__wrapper">
+            <nav class="nav">
+                <a class="nav__link menu__link2__active" href="#about">О НАС</a>
+                <a class="nav__link" href="#project">ПРОЕКТЫ</a>
+                <a class="nav__link" href="#service">УСЛУГИ</a>
+                <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+            </nav>
+        </div>
         <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
-    </footer>-->
+    </footer>
     <script src="gallery.js"></script>
 </body>
 </html>

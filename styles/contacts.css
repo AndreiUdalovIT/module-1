@@ -73,6 +73,16 @@
         font-size: 45px;
         letter-spacing: -1.35px;
     }
+    
+    .contacts__text:hover {
+        opacity: 1;
+        border-bottom: 0;
+    }
+
+    .contacts__text:active {
+        opacity: 0.5;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
 }
 
 @media (max-width: 800px) {

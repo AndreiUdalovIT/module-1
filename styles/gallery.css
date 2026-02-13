@@ -53,9 +53,19 @@
 }
 
 .gallery__control-prev, .gallery__control-next {
+    width: 40px;
+    height: 40px;
     background: none;
     border: 0;
     padding: 0;
+}
+
+.gallery__control-prev {
+    background-image: url(../resources/icon_1.png);
+}
+
+.gallery__control-next {
+    background-image: url(../resources/icon_2.png); 
 }
 
 .gallery__control-prev:hover, .gallery__control-next:hover {
@@ -151,5 +161,11 @@
         width: 284px;
         font-size: 19px;
         letter-spacing: -0.57px;
+    }
+
+    .gallery__control-prev, .gallery__control-next {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
     }
 }
