@@ -38,6 +38,17 @@ footer {
     padding-left: 9px;
 }
 
+@media (max-width: 1199px) {
+
+    .nav__link:hover {
+        opacity: 1;
+    }
+
+     .nav__link:active {
+        opacity: 0.5;
+     }
+}
+
 @media (max-width: 800px) {
     footer {
         background-color: #121212;
