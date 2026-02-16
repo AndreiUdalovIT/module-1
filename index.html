@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/gallery.css">
     <link rel="stylesheet" href="styles/contacts.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/popup.css">
 </head>
 <body>
 <!--<header>
@@ -108,7 +109,24 @@
                         <h3 class="service__text">Комплектация</h3>
                     </li>
                 </ul>
-                <button class="services__button-2">Заказать услугу</button>
+                <button class="js-btn">Заказать услугу</button>
+                <div class="popup js-popup">
+                    <div class="popup__content js-popup__content">
+                        <p class="popup__title">Заказать услугу</p>
+                        <p class="popup__text">Заполните форму, мы свяжемся с вами 
+                            в течение суток
+                        </p>
+                        <div class="popup__input__flex">
+                            <input class="popup__input" type="text" placeholder="Имя">
+                            <input class="popup__input" type="text" placeholder="Электронная почта">
+                            <input class="popup__input" type="text" placeholder="Номер телефона">
+                        </div>   
+                        <button class="popup__close-btn js-popup__close-btn"></button>
+                        <div class="popup__send-btn__flex">
+                            <button class="popup__send-btn">Отправить</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="reviews">
@@ -227,5 +245,6 @@
         <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
     </footer>
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
 </body>
 </html>
