@@ -2,6 +2,12 @@
     overflow: hidden;
 }
 
+.no-scroll {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
 .popup {
     position: fixed;
     left: 0;
@@ -15,6 +21,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 95px;
+    transition: all 0.3s ease;
 }
 
 .popup_open {
