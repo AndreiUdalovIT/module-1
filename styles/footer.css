@@ -10,16 +10,16 @@ footer {
     margin-bottom: 87px;
 }
 
-.nav {
+.nav-2 {
     display: flex;
     column-gap: 55px;
 }
 
-.nav__link {
+.nav__link-2 {
     color: #FFFFFF;
 }
 
-.nav__link:hover {
+.nav__link-2:hover {
     border-bottom: 0;
 }
 
@@ -40,11 +40,11 @@ footer {
 
 @media (max-width: 1199px) {
 
-    .nav__link:hover {
+    .nav__link-2:hover {
         opacity: 1;
     }
 
-     .nav__link:active {
+     .nav__link-2:active {
         opacity: 0.5;
      }
 }
@@ -60,11 +60,11 @@ footer {
         margin-bottom: 41px;
     }
 
-    .nav {
+    .nav-2 {
         column-gap: 30px;
     }
 
-    .nav__link {
+    .nav__link-2 {
         font-size: 12px;
         letter-spacing: -0.36px;
     }

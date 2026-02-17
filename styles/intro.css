@@ -8,7 +8,8 @@
     width: 100%;
     height: 500px;
     background-image: url(../resources/Rectangle_1.png);
-    margin-bottom: 150px;    
+    margin-bottom: 150px;   
+    z-index: 10; 
 }
 
 .int__img__text {
@@ -37,7 +38,7 @@
         background-position: center;
         height: 400px;
         margin-bottom: 120px;
-        background-image: url(../resources/Rectangle_1-tablet.png)
+        background-image: url(../resources/Rectangle_1-tablet.png);
     }
 
     .int__img__text {

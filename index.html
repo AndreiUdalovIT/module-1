@@ -22,15 +22,37 @@
     <link rel="stylesheet" href="styles/popup.css">
 </head>
 <body>
-<!--<header>
-        <a class="logo_link" href="index.html"><img class="logo__image" src="resources/Метрика.png" alt=""></a>
-        <nav class="menu">
+    <header>
+        <a class="logo_link" href="index.html">
+            <img class="logo__image" src="resources/Метрика.png" alt="">
+        </a>
+        <nav class="nav">
             <a class="nav__link menu__link__active" href="#about" >О НАС</a>  
             <a class="nav__link" href="#project" >ПРОЕКТЫ</a>
             <a class="nav__link" href="#service" >УСЛУГИ</a>
             <a class="nav__link" href="#contacts" >КОНТАКТЫ</a>
         </nav>
-    </header>-->
+        <button class="burger-btn js-burger-btn"></button>
+        <div class="burger js-burger">
+            <div class="burger__content js-burger__content">
+                <a class="logo_link" href="index.html">
+                    <img class="logo__image__burger" src="resources/Метрика.png" alt="">
+                </a>
+                <nav class="nav__burger">
+                    <a class="nav__link nav__link__burger n1" href="#about" >О НАС</a>  
+                    <a class="nav__link nav__link__burger n2" href="#project" >ПРОЕКТЫ</a>
+                    <a class="nav__link nav__link__burger n3" href="#service" >УСЛУГИ</a>
+                    <a class="nav__link nav__link__burger n4" href="#contacts" >КОНТАКТЫ</a>
+                </nav>
+                <div class="burger__flex">
+                    <p class="burger__flex__text">для связи:</p>
+                    <a class="contacts__text__flex" href="tel:+79358954535">+7 935  895-45-35</a>
+                    <a class="contacts__text__flex" 
+                    href="mailto:hello@mail.com">hello@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>  
         <section class="intro" id="about">
             <h1>Современные и стильные интерьеры для комфортной жизни</h1>
@@ -235,11 +257,11 @@
     </main>
     <footer>
         <div class="footer__nav__wrapper">
-            <nav class="nav">
-                <a class="nav__link menu__link2__active" href="#about">О НАС</a>
-                <a class="nav__link" href="#project">ПРОЕКТЫ</a>
-                <a class="nav__link" href="#service">УСЛУГИ</a>
-                <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+            <nav class="nav-2">
+                <a class="nav__link nav__link-2 menu__link2__active" href="#about">О НАС</a>
+                <a class="nav__link nav__link-2" href="#project">ПРОЕКТЫ</a>
+                <a class="nav__link nav__link-2" href="#service">УСЛУГИ</a>
+                <a class="nav__link nav__link-2" href="#contacts">КОНТАКТЫ</a>
             </nav>
         </div>
         <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
@@ -247,5 +269,6 @@
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
     <script src="popup-2.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html>
