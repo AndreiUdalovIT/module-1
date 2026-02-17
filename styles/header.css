@@ -40,9 +40,10 @@ header {
 }
 
 .burger {
-    opacity: 0;
-    visibility: hidden;
+    display: none;
 }
+
+
 
 @media (max-width: 1199px) {
 
@@ -55,6 +56,12 @@ header {
         display: none;
     }
 
+    .burger-btn__flex {
+        display: flex;
+        width: max-content;
+        float: right;
+    }
+
     .burger-btn {
         display: block;
         width: 50px;
@@ -62,11 +69,11 @@ header {
         background-image: url(../resources/burger_icon.png);
         background-size: cover;
         background-color: rgba(0, 0, 0, 0);
-        float: right;
         cursor: pointer;
     }
 
     .burger {
+        display: block;
         position: fixed;
         left: 0;
         top: 0;
@@ -75,6 +82,11 @@ header {
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 20;
         transition: all 0.3s ease;
+    }
+
+    .burger {
+        opacity: 0;
+        visibility: hidden;
     }
 
     .burger_open {
